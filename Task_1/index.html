@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft</title>
+    <style>
+        body{
+            background-color: rgb(250, 252, 255);
+        }
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: rgb(71, 220, 247);
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            padding:2vh 2vw;
+            flex-wrap: wrap;
+        }
+
+        /* Style for the logo */
+        .logo {
+            float: left;
+            height: 5vh;
+            width: auto;
+            margin-top: 1vh;
+            /* padding: 1vh 1vw; */
+        }
+
+        /* Style for the menu bar */
+        .menu {
+            float: left;
+            list-style-type: none;
+            margin: 0;
+            margin-top: 1vh;
+            padding: 0;
+        }
+
+        /* Style for the menu items */
+        .menu li {
+            display: inline;
+            margin-right: 3vw;
+           
+            justify-content: center;
+            
+        }
+
+        /* Style for the menu links */
+        .menu li a {
+            text-decoration: none;
+            color: black;
+           font-size: medium;
+            font-weight: bold;
+        }
+
+        /* Style for the sign-in and sign-up buttons */
+        .buttons {
+            float: right;
+            padding: 1vw 1vh;
+        }
+
+        .signin-btn,
+        .signup-btn {
+            background-color: #3a40f4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 1vh;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .signin-btn:hover,
+        .signup-btn:hover {
+            background-color: white;
+            color: black;
+        }
+        .image-text{
+            display: flex;
+            margin-top: 8vh;
+        }
+        .image{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .image img{
+            height:70vh;
+  
+        }
+        .text{
+            width: 50%;
+            display: flex;
+            padding: 4vh 10vw;
+            justify-content: center;
+            flex-direction: column;
+           
+        }
+        .text h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 1.5vh 0;
+        }
+        .text p{
+            font-size: 2.5vh;
+        } 
+        .text button{
+            background:dodgerblue;
+            padding: 15px;
+            width: 10vw;
+            margin: 1vw 0;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+        }
+        footer{
+            background-color: rgb(27, 24, 24);
+            color: white;
+            padding: 2vh 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" width="80">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Courses</a></li>
+            <li><a href="#">Our Mentors</a></li>
+            <li><a href="#">Resources</a></li>
+        </ul>
+        <div class="buttons">
+            <a href="#" class="signin-btn">Sign In</a>
+            <a href="#" class="signup-btn">Sign Up</a>
+        </div>
+    </div>
+    <div class="image-text">
+  <div class="text" >
+            <h1>Design Confidently</h1>
+            <p>CodeCraft is a remote user reasearch platform that takes the guesswork out of design decisions by validating them with real users</p>
+            <button>Get Started</button>
+        </div>
+        <div class="image"><img src="image2.avif" alt=""></div>
+    </div>
+
+    <div class="image-text">
+        <div class="image"><img src="90.jpeg" alt=""></div>
+        <div class="text" >
+                  <h1>Creative Designs</h1>
+                  <p>CodeCraft is a remote user reasearch platform that takes the guesswork out of design decisions by validating them with real users</p>
+                  <button>Get Started</button>
+              </div>
+             
+          </div>
+          <footer>
+            <p>&copy;2023 Copyrights Reserved by Codecraf</p>
+          </footer>
+          
+</body>
+</html>
